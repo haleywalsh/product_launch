@@ -1,0 +1,23 @@
+nav {
+	display: grid;
+	grid-template-columns: 2fr 4fr 1fr;
+	background-color: gray;
+}
+
+ul {
+	grid-column: 2;
+	justify-self: end;
+	text-align: right;
+
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+
+  }
+
+  header {
+  	height: 50vh;
+  	background-color: black;
+  }

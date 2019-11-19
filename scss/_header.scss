@@ -32,6 +32,20 @@ li {
 
   header {
   	height: 50vh;
-  	background-color: black;
+    position: relative;
+    display: flex;
+    overflow: hidden;
   }
 
+  header h1 {
+    z-index: 1;
+    margin-left: 75%;
+    padding: 20px;
+    align-self: center;
+    color: white;
+    font-size: 2em;
+  }
+
+video {
+  position: absolute;
+}

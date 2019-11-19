@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+  <script src="https://kit.fontawesome.com/7a10481a24.js" crossorigin="anonymous"></script>
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
@@ -20,6 +20,7 @@
 </style>
 <link href="https://fonts.googleapis.com/css?family=Thasadith&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
@@ -28,22 +29,25 @@
 <body>
 
 <nav> 
-  <img class="logo" src="img/slogo.png">
+  <a href="index.html"><img class="logo" src="img/slogo.png"></a>
   <ul>
   <li><a href="#story">Our Story</a></li>
   <li><a href="#ingredients">What We Are Made Of</a></li>
-  <li><a href="#">FAQ</a></li>
+  <li><a href="FAQ.html">FAQ</a></li>
   <li><a href="#shop">Shop</a></li>
 </ul>
 </nav>
 
 <header>
-  <h1></h1>
+  <video autoplay loop muted>
+    <source src="img/header.mp4" type="video/mp4">
+  </video>
+  <h1>Purely Natural.</h1>
   <p></p>
 </header>
 
 
-<section class="info">
+<section  data-aos-duration="1000" data-aos="fade-up" class="info">
   <div class="recycled">  
     <h3>Recycled.</h3>
   <p>Each candle is individually poured in a recycled glass jar that is 100% recyclable and can be recycled and reused endlessly without loss in quality. Glass with virtually no chemical interaction ensures that our candles maintain their strength and aroma. Our box is made with tree-free paper and printed with soy ink.</p>
@@ -62,37 +66,41 @@
 </section>
 
 <section class="favorites">
-  <h1>our favorites</h1>
-  <img class="first" src="img/first.png">
-  <img class="second" src="img/first.png">
-  <img class="third" src="img/first.png">
+  <h1 >our favorites</h1>
+  <img data-aos-duration="1000" data-aos="fade-up"class="first" src="img/first.png">
+    <h3 class="first">Cotton</h3>
+  <img data-aos-duration="1500" data-aos="fade-up"class="second" src="img/second.png">
+    <h3 class="second">Rose</h3>
+  <img data-aos-duration="2000" data-aos="fade-up"class="third" src="img/third.png">
+    <h3 class="third">Woods</h3>
 </section>
 
   <div class="box"></div>
 
 <section id="story" class="story">
-  <h1>our beginnings</h1>
-  <p>Due to an increase in medical issues, our founder Aleicia LaClaire began to research ways to rid her surroundings of toxic materials. Lighting candles has always been part of her nighttime routine, but the harmful perfumes were having an effect on her health. Turns out that traditional candles are full of toxic chemicals, like petroleum, dyes, artificial fragrances and animal by-products which go right into the air you breathe. But she did not want to get rid of her beloved candles and the beautiful glow that made her so happy. Several years of research revealed that coconut wax candles with a blend of essential oils, natural cotton wicks, and recyclable glass containers is the best combination. She started by making her own candles in her kitchen and selling them to family and friends. It took off from there. Her unique recipe suddenly became in high demand, and the company’s message grew. Now, her candles are in homes all across America.</p>
+  <h1  data-aos="zoom-in">our beginnings</h1>
+  <p data-aos="fade">Due to an increase in medical issues, our founder Aleicia LaClaire began to research ways to rid her surroundings of toxic materials. Lighting candles has always been part of her nighttime routine, but the harmful perfumes were having an effect on her health. Turns out that traditional candles are full of toxic chemicals, like petroleum, dyes, artificial fragrances and animal by-products which go right into the air you breathe. But she did not want to get rid of her beloved candles and the beautiful glow that made her so happy. Several years of research revealed that coconut wax candles with a blend of essential oils, natural cotton wicks, and recyclable glass containers is the best combination. She started by making her own candles in her kitchen and selling them to family and friends. It took off from there. Her unique recipe suddenly became in high demand, and the company’s message grew. Now, her candles are in homes all across America.</p>
   <img class="aleicia" src="img/aleicia.jpg">
 </section>
 
 <section id="ingredients" class="ingredients">
-  <h2>What We Are Made Of</h2>
-  <p>We work with farmers that are dedicated to incorporating green technology, including using less water for plant growth, utilizing solar panels, and encouraging the use of fuels that reduce their carbon output. You will not find any animal byproducts, petroleum, or artificial scents in our candles or process. Every single candle is vegan, natural, sustainable, and eco-friendly. Our main ingredient is organic coconut wax. Our process involves gathering the coconut meat and cold pressing its oil. Using the hydrogenation process, coconut oil is then transformed into wax. Coconut wax burns a lot cleaner, cooler and perfectly complements many kinds of essential oils.</p>
+  <h2 data-aos="fade">What We Are Made Of</h2>
+  <p data-aos="fade">We work with farmers that are dedicated to incorporating green technology, including using less water for plant growth, utilizing solar panels, and encouraging the use of fuels that reduce their carbon output. You will not find any animal byproducts, petroleum, or artificial scents in our candles or process. Every single candle is vegan, natural, sustainable, and eco-friendly. Our main ingredient is organic coconut wax. Our process involves gathering the coconut meat and cold pressing its oil. Using the hydrogenation process, coconut oil is then transformed into wax. Coconut wax burns a lot cleaner, cooler and perfectly complements many kinds of essential oils.</p>
+   <img class="drip" src="img/drip.jpg">
 </section>
 
-<section class="features">
-  <img class="f1" src="">
-  <img class="f2" src="">
-  <img class="f3" src="">
-  <img class="f4" src="">
-  <img class="f5" src="">
-</section>
+<!-- <section class="features">
+  <img class="f1" src="img/jar.jpg">
+  <img class="f2" src="img/wick.jpg">
+  <img class="f3" src="img/clean.jpg">
+  <img class="f4" src="img/chemicals.jpg">
+  <img class="f5" src="img/safe.jpg">
+</section> -->
 
 <section id="shop" class="shop">
-  <h1>What are<br>you feeling</h1>
+  <h1 data-aos="zoom-in">What are<br>you feeling</h1>
   
-<div class="hfall">
+<div data-aos="fade" class="hfall">
     <div class="text">
       <h3>Warm and Cozy</h3>
       <p>Our fall scents</p>
@@ -100,7 +108,7 @@
   <img class="fall" src="img/fall.png">
   </div>
 
-  <div class="hclean">
+  <div data-aos="fade" class="hclean">
   <div class="text">
     <h3>Clean and Refreshed</h3>
     <p>Simple, light scents</p>
@@ -108,7 +116,7 @@
   <img class="clean" src="img/clean.png">
   </div>
 
-  <div class="hflower">
+  <div data-aos="fade" class="hflower">
   <div class="text">
     <h3>Stop To Smell The Roses</h3>
     <p>Floral scents</p>
@@ -126,9 +134,23 @@
 </section>
 
 <footer>
-  <h4 class="mail">mail</h4>
+
+  <form class="mail">
+    <fieldset>
+        <legend>Sign Up For Our Newsletter</legend>
+
+        <input class="subox" type="email" placeholder="Email">
+
+        <button class="signup" type="submit" class="pure-button pure-button-primary">Sign Up</button>
+    </fieldset>
+
+</form>
   <img class="flogo" src="img/slogo.png">
-  
+  <div class="social">
+  <i class="fab fa-twitter"></i>
+  <i class="fab fa-facebook-f"></i>
+  <i class="fab fa-instagram"></i>
+</div>
 </footer>
 
 
@@ -136,6 +158,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
+  <script src="js/vendor/aos.js"></script>
   <script src="js/main.js"></script>
 
 
